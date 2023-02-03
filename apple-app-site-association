@@ -1,1 +1,19 @@
-
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["<Your Team Identifier>.<App Bundle Identifier>"],
+        "components": [
+          {
+            "/": "/link/*",
+            "comment": "Universal links"
+          },
+          {
+            "/": "/help/*",
+            "exclude": true
+          }
+        ]
+      }
+    ]
+  }
+}
